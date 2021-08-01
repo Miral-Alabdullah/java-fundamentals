@@ -172,15 +172,15 @@ public class Library {
             if(repeatedValues.contains(votes.get(i))==true){
                 count++;
             } else {
+                count = 0;
                 repeatedValues.add(votes.get(i));
             }
             System.out.println(count);
         }
-        return "Hello";
+        System.out.println(repeatedValues);
+        String tallyMost = "received the most votes!"
+        return tallyMost;
     }
-
-
-
 
 }
 
