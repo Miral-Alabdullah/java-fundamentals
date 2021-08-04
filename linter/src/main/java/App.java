@@ -11,7 +11,7 @@ public class App {
         System.out.println(new App().getGreeting());
 
 
-        Path file = Paths.get("src/main/gates.js");
+        Path file = Paths.get("src/main/java/gates.js");
         readingFromJsFils(file);
     }
 
